@@ -1,0 +1,43 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #3C3B35;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.madlibs{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+    div.madlibs h1{
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 53px;
+        color: #FFF;
+    }
+    div.madlibs_sub{
+        margin: auto;
+        max-width: 600px;
+    }
+        div.madlibs_menu{
+            width: 100%;
+            background-color: #AB2513;
+        }
+            div.madlibs_menu_item{
+                display: inline-block;
+                padding: 10px 0;
+                margin-left: 20px;
+                color: #fff;
+                cursor: pointer;
+            }
+        div.madlibs_vragen{
+            width: 100%;
+            padding: 20px 10px;
+            background-color: #fff;
+            box-sizing: border-box;
+        }
+            div.madlibs_vragen input{
+                margin-top: 20px;
+                margin-left: 60px;
+                width: 200px;
+            }

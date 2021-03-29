@@ -17,7 +17,7 @@ div.madlibs{
     }
     div.madlibs_sub{
         margin: auto;
-        max-width: 600px;
+        max-width: 700px;
     }
         div.madlibs_menu{
             width: 100%;
@@ -36,8 +36,12 @@ div.madlibs{
             background-color: #fff;
             box-sizing: border-box;
         }
+            div.madlibs_vragen p{
+                float: left;
+                margin: 0;
+                margin-bottom: 20px;
+            }
             div.madlibs_vragen input{
-                margin-top: 20px;
-                margin-left: 60px;
                 width: 200px;
+                margin-bottom: 20px;
             }
